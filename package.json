@@ -13,11 +13,11 @@
     "serve": "^11.3.2"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "devStart": "react-scripts start",
+    "start": "serve build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "serve": "serve build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
