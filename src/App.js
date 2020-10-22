@@ -10,10 +10,10 @@ function App() {
   marked.setOptions({
     renderer: new marked.Renderer(),
     gfm: true,
+    breaks: true
   });
 
   useEffect(() => {
-    setText(text.replace(/\n/, '<br />'));
     setMarkdown(marked(text));
   }, [text]);
 

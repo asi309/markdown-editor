@@ -28,7 +28,7 @@ div#app > div section {
   justify-content: center;
 }
 
-section h2 {
+section > h2:first-of-type {
   color: #6c18cf;
 }
 
@@ -56,7 +56,7 @@ section #editor {
   width: 600px;
 }
 
-div#app h1 {
+div#app > h1:first-of-type {
   text-align: center;
   margin-bottom: 40px;
   color: #6c18cf;
